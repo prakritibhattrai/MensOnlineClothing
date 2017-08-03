@@ -1,0 +1,55 @@
+
+
+.mwrapper{
+
+
+	width:100%;
+	height:100%;
+	position:relative;
+	float:left;
+}
+
+.navbar{
+
+
+text-align: left;
+background-color:transparent;
+border: none;
+
+}
+.header{
+
+margin-top: 10px;
+
+}
+.header a{
+    
+   
+	color:99cc33;
+}
+
+.slider img,
+.slider a img{
+
+	height:700px;
+	width: 100%;
+	position:relative;
+}
+
+.mainNav{
+
+
+}
+.mainNav li{
+	float: left;
+	list-style-type: none;
+	padding-left: 50px;
+
+}
+.mainNav li a{
+	color:white;
+
+}
+.mainNav li.active a{
+	color: 99cc33;
+}

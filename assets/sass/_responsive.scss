@@ -1,0 +1,49 @@
+
+
+@media screen and (max-device-width:768px){
+
+.cont{
+width:100%;
+
+.form_main{
+&.col-4{
+	width:50%;
+}
+}
+.contactimg{
+
+&.col-6{
+width:50%;
+img{
+	
+	}
+}
+}
+ 
+
+}
+}
+
+@media screen and (max-device-width: 415px){
+
+.contact1{
+	width:100%;
+}
+
+.form_main{
+&.col-4{
+	width:100%;
+}
+}
+.contactimg{
+
+&.col-6{
+
+img{
+	width:100%;
+	}
+}
+}
+ 
+
+}

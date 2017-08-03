@@ -1,0 +1,294 @@
+.carousel {
+  height: 100%;
+  margin-bottom: 0px; }
+
+.carousel-caption {
+  z-index: 10;
+  color: #ffffff;
+  margin-bottom: 90px;
+  /*Index page*/ }
+  .carousel-caption h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: serif;
+    letter-spacing: 2px; }
+  .carousel-caption .circleIcon {
+    background-color: transparent;
+    border: 4px solid #ffffff;
+    height: 80px;
+    width: 80px;
+    display: block;
+    text-align: center;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -chrome-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 0px auto; }
+    .carousel-caption .circleIcon i {
+      font-size: 35px;
+      vertical-align: middle;
+      color: #ffffff;
+      line-height: 80px; }
+
+.carousel .item {
+  height: 100%;
+  background-color: #777; }
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%; }
+
+/*--end--*/
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4; } }
+/*collection page */
+.image-section img {
+  width: 100%;
+  float: left;
+  position: relative; }
+  .image-section img.image {
+    width: 100%;
+    height: 678px;
+    position: relative;
+    float: left; }
+.image-section h1 {
+  font-family: Serif;
+  color: #ffffff;
+  position: absolute;
+  z-index: 50px;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 80px;
+  padding: 3px;
+  letter-spacing: 5px;
+  font-weight: bolder; }
+.image-section p {
+  color: #ffffff;
+  position: absolute;
+  z-index: 50px;
+  text-align: center;
+  margin-top: 420px; }
+
+.collection-section {
+  margin-top: 70px;
+  text-align: center; }
+  .collection-section h2 {
+    margin-top: 20px;
+    font-family: Serif;
+    font-size: 57px; }
+  .collection-section h6 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px; }
+  .collection-section p {
+    margin-top: 18px;
+    font-size: 13.5px;
+    padding-right: 1px;
+    word-spacing: 1px; }
+  .collection-section .line {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #030303;
+    width: 300px;
+    height: 1px; }
+
+/*about Page*/
+.slider-about {
+  /*--end--*/ }
+  .slider-about .carousel {
+    height: 500px;
+    margin-top: 130px;
+    margin-bottom: 0px; }
+  .slider-about .carousel .item {
+    height: 100%;
+    background-color: #777; }
+  .slider-about .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%; }
+  @media (min-width: 768px) {
+    .slider-about {
+      /* Bump up size of carousel content */ }
+      .slider-about .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4; } }
+
+/*about footer*/
+.about-footer {
+  width: 100%;
+  float: left;
+  position: relative;
+  color: #030303;
+  background-color: #030303;
+  margin-top: 30px;
+  height: 50px; }
+  .about-footer p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 10px; }
+
+/*about body*/
+.about-body {
+  margin-top: 20px; }
+  .about-body p {
+    font-size: 14px;
+    padding-right: 1px;
+    margin-top: 20px; }
+  .about-body h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold; }
+  .about-body h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #9d9d9d; }
+  .about-body h5 {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold; }
+
+.shop-options {
+  position: relative; }
+  .shop-options ul {
+    position: relative;
+    float: left;
+    display: block; }
+
+/*Contact */
+.contact1 {
+  height: 400px;
+  background-color: #030303;
+  color: white;
+  font-weight: bold; }
+
+.mwrapper {
+  width: 100%;
+  float: left;
+  position: relative;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.cmnDiv {
+  width: 100%;
+  float: left;
+  position: relative; }
+
+.navbar-main {
+  width: 100%;
+  height: 60x;
+  min-height: 40px;
+  float: left;
+  position: relative;
+  border-bottom: 2px solid;
+  color: #ffffff;
+  margin-top: 30px; }
+  .navbar-main a.navbar-brand {
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Serif;
+    padding-right: 2px; }
+  .navbar-main ul {
+    margin-left: 0px; }
+    .navbar-main ul.nav li.active {
+      color: #ffffff; }
+    .navbar-main ul.nav a {
+      font-size: 13px;
+      color: #ffffff;
+      padding-bottom: 4px; }
+      .navbar-main ul.nav a.hover .navbar-main ul.nav a.focus {
+        border-bottom: 6px solid #ffffff; }
+
+/*menu for about and contact*/
+.navbar-abcon {
+  background-color: #ffffff; }
+
+.navbar-about {
+  width: 100%;
+  height: 60x;
+  min-height: 40px;
+  float: left;
+  position: relative;
+  border-bottom: 2px solid;
+  color: #030303;
+  margin-top: 30px;
+  background-color: #ffffff; }
+  .navbar-about a.navbar-brand {
+    font-size: 50px;
+    color: #030303;
+    text-decoration: none;
+    font-family: serif;
+    padding-right: 2px; }
+  .navbar-about ul {
+    margin-left: 0px; }
+    .navbar-about ul.nav li.active {
+      color: #030303; }
+    .navbar-about ul.nav a {
+      font-size: 13px;
+      color: #030303;
+      padding-bottom: 4px; }
+      .navbar-about ul.nav a.hover .navbar-about ul.nav a.focus {
+        border-bottom: 6px solid #ffffff; }
+
+/*menu for shop*/
+.navbar-shop {
+  width: 100%;
+  height: 60x;
+  min-height: 40px;
+  float: left;
+  position: relative;
+  border-bottom: 1.5px solid;
+  color: #9d9d9d;
+  margin-top: 30px;
+  background-color: #ffffff; }
+  .navbar-shop a.navbar-brand {
+    font-size: 50px;
+    color: #030303;
+    text-decoration: none;
+    font-family: serif;
+    padding-right: 2px;
+    margin-left: 15px; }
+  .navbar-shop ul {
+    margin-right: 15px;
+    margin-left: 0px; }
+    .navbar-shop ul.nav li.active {
+      color: #030303; }
+    .navbar-shop ul.nav a {
+      font-size: 13px;
+      color: #030303;
+      padding-bottom: 4px; }
+      .navbar-shop ul.nav a.hover .navbar-shop ul.nav a.focus {
+        border-bottom: 6px solid #ffffff; }
+
+.contact-header h3 {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 40px;
+  font-size: 22px; }
+.contact-header p {
+  margin-top: 90px; }
+.contact-header .contIcon {
+  margin-top: 90px; }
+  .contact-header .contIcon i {
+    margin-top: 90px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 200; }
+
+/*# sourceMappingURL=mainlayout.css.map */
